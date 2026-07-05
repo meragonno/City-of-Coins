@@ -63,7 +63,9 @@ git clone https://github.com/meragonno/city-of-coins.git
 3. Place theme into WordPress
 
 Copy the theme/ folder into:
+```
 wp-content/themes/
+```
 
 3. Activate theme
 
@@ -106,7 +108,7 @@ MIT License
 
 This repository exists to provide transparency into the frontend architecture and user experience layer of the swap platform, enabling developers to review, reuse, or contribute to the interface layer.
 
-# 🤝 Disclaimer
+## 🤝 Disclaimer
 
 This project is a frontend integration layer for third-party swap providers. All swap execution, liquidity routing, and blockchain interactions are handled by external services.
 

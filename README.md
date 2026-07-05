@@ -1,4 +1,4 @@
-# 🚀 City-of-Coins
+# 🚀 City of Coins
 City of Coins is an open-source frontend for a modular non-custodial crypto liquidity routing platform that integrates trusted third-party swap/defi providers through a lightweight, open-source frontend.
 This repository contains the open-source frontend layer of the application.
 
@@ -11,13 +11,21 @@ This project provides a simple and modular swap interface that allows users to s
 It is designed as a frontend + WordPress theme integration, where WordPress is used as the content management system and the swap interface is handled through custom JavaScript.
 
 ⚙️ Key Features
+
 🔄 Swap interface UI (frontend-based)
+
 💱 Integration with ChangeNOW widget
+
 🌉 Integration with deBridge widget
+
 📱 Responsive design (mobile + desktop)
+
 🎨 Custom theme-based UI layer
+
 ⚡ Lightweight JavaScript architecture
+
 🧩 Modular provider integration system
+
 
 🏗️ Architecture
 
@@ -36,6 +44,7 @@ This repository does NOT include backend infrastructure, user management, or Wor
 
 Swap execution is handled by third party integrations. This repository only manages the frontend integration layer and user experience.
 
+
 🧠 How It Works
 User selects a swap provider (Instant Swap or DEX Mode)
 Frontend loads the corresponding widget
@@ -43,6 +52,7 @@ Widget handles wallet connection and swap execution
 UI updates based on widget state and events
 
 No custom on-chain swap execution logic is implemented in this repository.
+
 
 🚀 Getting Started (Local Setup)
 1. Clone the repository
@@ -77,6 +87,7 @@ Production server configuration
 
 Add screenshots here:
 xxx
+
 xxx
 
 📜 License

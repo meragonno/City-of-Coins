@@ -2,15 +2,15 @@
 City of Coins is an open-source frontend for a modular non-custodial crypto liquidity routing platform that integrates trusted third-party swap/defi providers through a lightweight, open-source frontend.
 This repository contains the open-source frontend layer of the application.
 
-## Live
+## 🌐 Live
 👉 https://www.cityofcoins.net
 
-## Overview
+## 📌 Overview
 This project provides a simple and modular swap interface that allows users to swap crypto assets using external liquidity providers.
 
 It is designed as a frontend + WordPress theme integration, where WordPress is used as the content management system and the swap interface is handled through custom JavaScript.
 
-## Key Features
+## ⚙️ Key Features
 
 🔄 Swap interface UI (frontend-based)
 
@@ -27,7 +27,7 @@ It is designed as a frontend + WordPress theme integration, where WordPress is u
 🧩 Modular provider integration system
 
 
-## Architecture
+## 🏗️ Architecture
 
 The system is split into two parts:
 
@@ -45,7 +45,7 @@ This repository does NOT include backend infrastructure, user management, or Wor
 Swap execution is handled by third party integrations. This repository only manages the frontend integration layer and user experience.
 
 
-## How It Works
+## 🧠 How It Works
 User selects a swap provider (Instant Swap or DEX Mode)
 Frontend loads the corresponding widget
 Widget handles wallet connection and swap execution
@@ -54,7 +54,7 @@ UI updates based on widget state and events
 No custom on-chain swap execution logic is implemented in this repository.
 
 
-## Getting Started (Local Setup)
+## 🚀 Getting Started (Local Setup)
 1. Clone the repository
 ```
 git clone https://github.com/meragonno/city-of-coins.git
@@ -76,7 +76,7 @@ Appearance → Themes → Activate
 
 Navigate to your configured swap page.
 
-## What’s NOT included
+## 🔒 What’s NOT included
 
 This repository does NOT contain:
 
@@ -92,7 +92,7 @@ Analytics or tracking systems
 
 Production server configuration
 
-## Screenshots
+## 📸 Screenshots
 
 Add screenshots here:
 
@@ -100,11 +100,11 @@ xxx
 
 xxx
 
-## License
+## 📜 License
 
 MIT License
 
-## Purpose
+## ⭐ Purpose
 
 This repository exists to provide transparency into the frontend architecture and user experience layer of the swap platform, enabling developers to review, reuse, or contribute to the interface layer.
 
